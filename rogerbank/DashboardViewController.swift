@@ -29,6 +29,10 @@ class DashboardViewController: UIViewController, UICollectionViewDelegate, UICol
         budgetsCollectionView.dataSource = self
     }
     
+    @IBAction func balanceSettingsButtonAction(_ sender: Any) {
+        
+    }
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return budgets.count
     }
